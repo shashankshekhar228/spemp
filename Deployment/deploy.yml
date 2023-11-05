@@ -6,11 +6,11 @@
   tasks:
     - name: Pull image
       docker_image:
-        name: shashank/spemp:latest
+        name: shashank389/spemp:latest
         source: pull
     - name: Start docker container
       service:
         name: docker
         state: started
     - name: Running container
-      shell: docker run -it -d --name calculator shashank/spemp
+      shell: docker run -it -d --name calculator shashank389/spemp
