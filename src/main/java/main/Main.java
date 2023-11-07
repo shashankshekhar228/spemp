@@ -7,6 +7,8 @@ import org.apache.logging.log4j.Logger;
 public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args){
+        
+        //Lets see what happens
         Scanner reader = new Scanner(System.in);
         logger.info("A fundamental calculator for exponential, nCr and Greatest Common Divisor");
         System.out.println("Welcome to the calculator app");
